@@ -1,0 +1,90 @@
+#area-restrita{
+	margin:auto;
+	width:50%;
+	}
+	
+	div.cabecalho{
+	position:absolute;
+	left:300px;
+	width:700px;	
+}
+
+h1{
+color: #191970;
+font-family:Verdana;
+font-weight: bold;
+	}
+a{
+text-decoration: none;
+color: #FFF;
+font-family:Arial,Sans-serif;
+font-weight: bold;
+}
+
+.link{
+	color: #000;
+}
+
+.link:HOVER {
+	color: #0000CD;
+}
+
+.link2{
+	color: #FFF;
+}
+
+.link2:HOVER {
+	color: #FFA500;
+}
+
+	
+
+div.tabela{
+	position:fixed;
+	top:168px;
+	left:220px;
+	height: 500px;
+
+	color: #FFF;
+	
+	
+}
+
+div.menu{
+	visibility:hidden;
+	position:fixed;
+	top:168px;
+	left: 640px;
+	width:auto;
+	background-color:#191970;
+	color: #FFF;
+	text-align: center;
+	
+	font-size:18px;
+	font-weight:bold;
+	font-family:Arial,Sans-serif;
+	line-height:2;
+	
+	
+	}
+div.caixa{
+	position:absolute;
+	top:150px;
+	left:210px;
+	width: 800px;
+	height: 130px;
+	
+	border: 4px;
+	border-style: dashed;
+	border-color: #191970;
+	
+	
+}
+
+.rodape{
+	top: 300px;
+	left:550px;
+	position: absolute;
+	}
+	
+	

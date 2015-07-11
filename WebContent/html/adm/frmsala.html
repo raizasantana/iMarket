@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script type="text/javascript" src="/ProjetoFinal/js/funcoes.js"></script>
+	<link rel="shortcut icon" href="/ProjetoFinal/img/icone.ico"/>
+	<link rel="STYLESHEET" type="text/css" href="/ProjetoFinal/css/restrita.css">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Registrar Sala</title>
+</head>
+<body>
+
+<center><h3 >&Aacute;rea Restrita - Registrar Sala</h3></center>
+<fieldset id=area-restrita>
+<form action="/ProjetoFinal/ServletSala" method="get" onsubmit="return valida_enviar_Sala(this)">
+<input type="hidden" name="acao" value="adicionar"/>
+
+<table>
+
+<tr>
+<td>Nome</td><td><input type="text" name="nome" id=nome onkeyup="valida_digitos('nome')" onblur="valida_campos('nome')" onFocus="informa('nome')"><div id=respostanome style="COLOR: red"></div></td>
+</tr>
+<tr>
+<td>Quantidade de cadeiras</td><td><input type="text" name="qtdCadeiras" id=qtdCadeiras onkeyup="valida_digitos('qtdCadeiras')" onblur="valida_campos('qtdCadeiras')" onFocus="informa('qtdCadeiras')"><div id=respostaqtdCadeiras style="COLOR: red"></div></td>
+</tr>
+<tr>
+<td>Quantidade de fileiras</td><td><input type="text" name="qtdFileiras" id=qtdFileiras onkeyup="valida_digitos('qtdFileiras')" onblur="valida_campos('qtdFileiras')" onFocus="informa(qtdFileiras')"><div id=respostaqtdFileiras style="COLOR: red"></div></td>
+</tr>
+</table>
+
+<br><br>
+<input type="submit" value="Incluir"></input>
+
+</form>
+</fieldset>
+
+<center>
+        <a class=link href="/ProjetoFinal/html/adm/restrito.jsp">[ HOME ]</a>   <a  class=link href="/ProjetoFinal/Servlet?classe=FuncionarioControl&acao=sair&destino=index02.html">[ LOGOUT ]</a>
+</center>
+</body>
+</html>

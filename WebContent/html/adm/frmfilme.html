@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script type="text/javascript" src="/ProjetoFinal/js/funcoes.js"></script>
+	<link rel="shortcut icon" href="/ProjetoFinal/img/icone.ico"/>
+	<link rel="STYLESHEET" type="text/css" href="/ProjetoFinal/css/restrita.css">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Registrar Filme </title>
+</head>
+<body>
+
+<center><h3 >&Aacute;rea Restrita - Registro de Filme</h3></center>
+<fieldset id=area-restrita>
+
+<form action="/ProjetoFinal/ServletFilme" method="get" onsubmit="return valida_enviar_Filme(this)" id="frmfilme" >
+<input type="hidden" name="acao" value="adicionar"/>
+Nome<br>
+<input type="text" name="nome" id=nome onkeyup="valida_digitos('nome')" onblur="valida_campos('nome')" onFocus="informa('nome')"><div id=respostanome style="COLOR: red"></div>
+
+Censura<br>
+<input type="text" name="censura" id=censura onkeyup="valida_digitos('censura')" onblur="valida_campos('censura')" onFocus="informa('censura')"><div id=respostacensura style="COLOR: red"></div>
+
+Sinopse<br>
+<textarea  name="sinopse"  id=sinopse></textarea>
+<br>
+Duração(min)<br>
+<input type="text" name="duracao" id=duracao onkeyup="valida_digitos('duracao')" onblur="valida_campos('duracao')" onFocus="informa('duracao')"><div id=respostaduracao style="COLOR: red"></div>
+
+Data de Início<br>
+<input type="text" name="dataIni" id=dataIni onkeyup="valida_digitos('dataIni')" onBlur="validar_Data('dataIni')" onFocus="informa('dataIni')"><div id=respostadataIni style="COLOR: red"></div>
+
+Data de Término<br>
+<input type="text" name="dataFin"  id=dataFin onkeyup="valida_digitos('dataFin')" onBlur="validar_Data('dataFin')" onFocus="informa('dataFin')"><div id=respostadataFin style="COLOR: red"></div>
+
+<input id=link-ar type="submit" value="Incluir"></input>
+<br>
+</form>
+</fieldset>
+<center>
+        <a class=link href="/ProjetoFinal/html/adm/restrito.jsp">[ HOME ]</a>   <a  class=link href="/ProjetoFinal/Servlet?classe=FuncionarioControl&acao=sair&destino=index02.html">[ LOGOUT ]</a>
+</center>
+<!-- 
+<center><a href="/ProjetoFinal/index.jsp">Area aberta</a></center>
+-->
+</body>
+</html>

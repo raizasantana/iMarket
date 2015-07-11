@@ -1,0 +1,199 @@
+#tudo{
+margin: 0 auto;
+text-align: left;
+padding: 0px;
+padding-top: 0px;
+padding-left: 0px;
+font-family: Arial,Calibri;
+font-size:small;
+}
+
+
+#menu-superior{
+position:absolute;
+left:0;
+top:0;
+width:100%;
+margin: 0 auto;
+height:24px
+background-image:url('img/barraMenu.jpg');
+background-color:#191970;
+color:white;
+font-weight:700;
+font-size:13px;
+font-family:Arial,Sans-serif;
+text-align:middle;
+opacity: 7.2;
+}
+
+img{border:0}
+
+.ms-link{color:#FFFFFF;text-decoration:none;white-space:nowrap;cursor:pointer;cursor:hand}#menu-superior
+.ms-link:hover{color:#FFA500;text-decoration:none}#bt-unflag-body{display:none}#menu-superior
+
+
+div.menu-sessao{
+visibility:hidden;
+background-color:#191970;
+opacity: 7.6;
+width:120px;
+height:25px;
+position:absolute;
+top:35px;
+left:630px;
+font-size:12px;
+font-weight:700;
+font-family:Arial,Sans-serif;
+line-height:2;
+}
+
+
+
+
+div.menu-filme{
+visibility:hidden;
+background-color:#191970;
+opacity: 7.6;
+width:120px;
+height:25px;
+position:absolute;
+top:35px;
+left:750px;
+font-size:12px;
+font-weight:700;
+font-family:Arial,Sans-serif;
+line-height:2;
+}
+
+div.menu-ingresso{
+visibility:hidden;
+background-color:#191970;
+opacity: 7.6;
+width:120px;
+height:48px;
+position:absolute;
+top:35px;
+left:420px;
+font-size:12px;
+font-weight:700;
+font-family:Arial,Sans-serif;
+line-height:2;
+}
+
+div.menu-cliente{
+visibility:hidden;
+background-color:#191970;
+opacity: 7.6;
+width:120px;
+height:72px;
+position:absolute;
+top:35px;
+left:950px;
+font-size:12px;
+font-weight:700;
+font-family:Arial,Sans-serif;
+line-height:2;
+}
+
+.shadow {
+	box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+a{
+text-decoration: none;
+color: #FFFFFF;
+font-family:Arial,Sans-serif;
+
+}
+
+H4
+{color: #00008B;
+font-family: "Agency FB",fantasy;
+}
+
+H3{
+	color:#191970;
+}
+p{
+padding: 0px;
+}
+
+
+
+
+#cadastro{
+position: absolute;	
+left:300px;
+top:80px;
+padding: 30px;
+margin: 0 auto;
+background-image:url('img/barraMenu.jpg');
+background-color:#FFFFFF;
+color:#191970;
+font-weight:700;
+font-size:13px;
+font-family:Arial,Sans-serif;
+text-align:left;
+opacity: 7.2;
+border-color: #FFA500;
+width:auto;
+}
+
+#listarfilmes{
+padding-top:80px;
+padding-left:400px;
+color:#191970;
+font-weight:700;
+font-size:11px;
+font-family:Arial,Sans-serif;
+text-align:left;
+text-align:left;
+border-spacing: 10px;
+
+}
+
+.botao{
+background: url(/ProjetoFinal/img/btn.png) no-repeat;
+width: 110px;
+height:25px;
+padding:3px 10px 10px 10px;
+font-family:Arial,Sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#191970;
+border-style: none;
+ 
+}
+
+.botao:hover{
+background: url(/ProjetoFinal/img/btn-hover.png) no-repeat; 
+}
+
+#ingresso{
+	background-color:#FFEC8B;
+	font-family:Arial,Sans-serif;
+	color:#191970;
+	width: 299px;
+	}
+
+.link-pagina{
+	color:#191970;
+	font-weight: bold;
+}
+
+.link-pagina:hover{
+	color:#FFA500;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+#cadeiras{
+	border: 4px;
+	border-style: dashed;
+	border-color: #191970;
+}

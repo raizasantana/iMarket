@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script type="text/javascript" src="/ProjetoFinal/js/funcoes.js"></script>
+	<link rel="shortcut icon" href="/ProjetoFinal/img/icone.ico"/>
+	<link rel="STYLESHEET" type="text/css" href="/ProjetoFinal/css/restrita.css">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Registrar Tipo</title>
+</head>
+<body>
+
+
+<center><h3 >&Aacute;rea Restrita - Registro de Tipo</h3></center>
+
+<fieldset id=area-restrita>
+
+<form action="/ProjetoFinal/ServletTipo" method="get" onsubmit="return valida_enviar_Tipo(this)">
+<input type="hidden" name="acao" value="adicionar"/>
+
+<table>
+<tr>
+<td>Descri&ccedil;&atilde;o</td><td><input type="text" name="descricao" id=descricao onkeyup="valida_digitos('descricao')" onblur="valida_campos('descricao')" onFocus="informa('descricao')">
+<div id=respostadescricao style="COLOR: red"></div></td>
+</tr>
+<tr>
+<td>Pre&ccedil;o</td><td><input type="text" name="preco" id=preco onkeyup="valida_digitos('preco')" onblur="valida_campos('preco')" onFocus="informa('preco')">
+<div id=respostapreco style="COLOR: red"></div></td>
+</tr>
+</table>
+
+<br><br>
+<input type="submit" value="Incluir"></input>
+
+</form>
+</fieldset>
+
+<center>
+        <a class=link href="/ProjetoFinal/html/adm/restrito.jsp">[ HOME ]</a>   <a  class=link href="/ProjetoFinal/Servlet?classe=FuncionarioControl&acao=sair&destino=index02.html">[ LOGOUT ]</a>
+</center>
+
+</body>
+</html>
